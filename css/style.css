@@ -24,3 +24,8 @@ body {
 .right-side ul {
     gap: 40px;
 }
+
+.upper-mid img {
+    width: 300px;
+    height: 200px; 
+}
