@@ -14,6 +14,7 @@ body {
     background-color: #1F2937;
     color: #ffffff;
     padding: 16px 200px 16px 200px;
+    gap: 100px;
 }
 
 .right-side ul,
@@ -38,6 +39,7 @@ body {
 .upper-mid {
     display: flex;
     justify-content: space-between;
+    gap: 100px;
     align-items: flex-start;
     padding: 100px 200px 100px 200px;
     background-color: #1F2937;
@@ -107,6 +109,7 @@ h2 {
 .rand-info {
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .block1 p,
@@ -138,17 +141,14 @@ h2 {
     padding: 100px 300px 100px 300px;
     background-color: #E5E7EB;
     align-items: center;
-}
-
-.lower-mid .quote,
-.lower-mid .author {
-    margin: 0;
+    min-width: 240px;
 }
 
 .lower-mid .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin: 0;
 }
 
 .lower-mid .author {
@@ -156,6 +156,7 @@ h2 {
     color: #1F2937;
     font-weight: bold;
     align-self: flex-end;
+    margin-top: 20px;
 }
 
 .low-txt {
@@ -171,6 +172,7 @@ h2 {
     margin: 100px 200px 100px 200px;
     padding: 50px 0px 50px 0px;
     border-radius: 10px;
+    min-width: 810px;
 }
 
 .low-txt p {
