@@ -6,10 +6,10 @@ body {
 
 .menu-bar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     color: #ffffff;
-    padding: 16px;
+    padding: 16px 0px 16px 0px;
 }
 
 .right-side ul,
@@ -22,10 +22,51 @@ body {
 }
 
 .right-side ul {
+    padding-right: 200px;
     gap: 40px;
+}
+
+.left-side ul {
+    padding-left: 200px;
+}
+
+.upper-mid {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px 100px 0px;
+    background-color: #1F2937;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+    padding-left: 200px;
+}
+
+.intro h2,
+.intro p {
+    margin: 0px;
+}
+
+.intro h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #ffffff;
+
+}
+
+.intro p {
+    color: #ffffff;
+}
+
+.intro button {
+    width: 100px;
 }
 
 .upper-mid img {
     width: 300px;
-    height: 200px; 
+    height: 200px;
+    padding-right: 200px; 
 }
