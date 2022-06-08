@@ -188,3 +188,16 @@ h2 {
     font-size: 18px;
 
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #ffffff;
+    padding: 25px;
+}
+
+.footer p {
+    margin: 0;
+}
