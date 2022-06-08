@@ -119,3 +119,27 @@ h2 {
     margin-bottom: 50px;
     font-size: 36px;
 }
+
+.lower-mid {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 100px 200px;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.lower-mid .quote,
+.lower-mid .author {
+    margin: 0;
+    width: 800px;
+}
+
+.lower-mid .quote {
+    font-size: 36px;
+}
+
+.lower-mid .author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
